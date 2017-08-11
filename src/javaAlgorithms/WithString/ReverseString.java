@@ -1,4 +1,4 @@
-package javaAlgorithms.WithSting.reverseOfString;
+package javaAlgorithms.WithString;
 
 import java.util.Scanner;
 

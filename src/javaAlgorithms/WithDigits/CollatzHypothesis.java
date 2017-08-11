@@ -1,4 +1,4 @@
-package javaAlgorithms.WithDigits.TheCollatzHypothesis;
+package javaAlgorithms.WithDigits;
 
 import java.util.Scanner;
 
