@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class FibonacciNum {
 
     public static void main(String[] args) {
-        int n = 0;
+        int n;
 
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
