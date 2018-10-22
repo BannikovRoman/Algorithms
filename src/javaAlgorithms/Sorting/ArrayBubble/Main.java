@@ -5,16 +5,16 @@ package javaAlgorithms.Sorting.ArrayBubble;
  */
 public class Main {
     public static void main(String[] args) {
-        ArrayBubble array = new ArrayBubble(5); //Создаем массив array на 5 элементов
+        ArrayBubble array = new ArrayBubble(5);
 
-        array.into(163);       //заполняем массив
+        array.into(163);
         array.into(300);
         array.into(184);
         array.into(191);
         array.into(174);
 
-        array.printer();            //выводим элементы до сортировки
-        array.bubbleSorter();       //ИСПОЛЬЗУЕМ ПУЗЫРЬКОВУЮ СОРТИРОВКУ
-        array.printer();            //снова выводим отсортированный йсписок
+        array.printer();
+        array.bubbleSorter();
+        array.printer();
     }
 }

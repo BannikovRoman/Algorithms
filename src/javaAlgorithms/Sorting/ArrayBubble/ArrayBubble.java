@@ -4,23 +4,23 @@ package javaAlgorithms.Sorting.ArrayBubble;
  * Created by rbannikov on 22.10.2018.
  */
 public class ArrayBubble {
-    private long[] a;   //ссылка на массив
-    private int elems;  //количество элементов в массиве
+    private long[] a;
+    private int elems;
 
-    public ArrayBubble(int max){    //конструктор класса
-        a = new long[max];          //создание массива размером max
-        elems = 0;                  //при создании массив содержит 0 элементов
+    public ArrayBubble(int max){
+        a = new long[max];
+        elems = 0;
     }
 
-    public void into(long value){   //метод вставки элемента в массив
-        a[elems] = value;           //вставка value в массив a
-        elems++;                    //размер массива увеличивается
+    public void into(long value){
+        a[elems] = value;
+        elems++;
     }
 
-    public void printer(){          //метод вывода массива в консоль
-        for (int i = 0; i < elems; i++){    //для каждого элемента в массиве
-            System.out.print(a[i] + " ");   //вывести в консоль
-            System.out.println("");         //с новой строки
+    public void printer(){
+        for (int i = 0; i < elems; i++){
+            System.out.print(a[i] + " ");
+            System.out.println("");
         }
         System.out.println("----Окончание вывода массива----");
     }
